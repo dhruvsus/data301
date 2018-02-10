@@ -1,0 +1,41 @@
+[ValidateApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[ValidateApp | INFO] Validating '/home/dhruvsus/midterm'
+[ValidateApp | ERROR] Traceback (most recent call last):
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/apps/validateapp.py", line 68, in start
+        validator.validate_and_print(filename)
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/validator.py", line 257, in validate_and_print
+        results = self.validate(filename)
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/validator.py", line 228, in validate
+        nb = self._preprocess(basename)
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/validator.py", line 216, in _preprocess
+        nb = read_nb(filename, as_version=current_nbformat)
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/nbgraderformat/v1.py", line 124, in read_v1
+        nb = _read(source, as_version, **kwargs)
+      File "/opt/conda/lib/python3.6/site-packages/nbformat/__init__.py", line 138, in read
+        with io.open(fp, encoding='utf-8') as f:
+    IsADirectoryError: [Errno 21] Is a directory: '.'
+    
+[ValidateApp | ERROR] nbgrader encountered a fatal error while trying to validate '.'
+[ValidateApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[ValidateApp | INFO] Validating '/home/dhruvsus/midterm/GapMinderEDA.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/midterm/Midterm.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/midterm/UsingWordVectors.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[SubmitApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[SubmitApp | INFO] Source: /home/dhruvsus/midterm
+[SubmitApp | INFO] Destination: /srv/nbgrader/exchange/data301/inbound/dhruvsus+midterm+2018-02-08 17:34:44.736382 UTC
+[SubmitApp | WARNING] Possible missing notebooks and/or extra notebooks submitted for assignment midterm:
+    Expected:
+    	GapMinderEDA.ipynb: FOUND
+    	Midterm.ipynb: FOUND
+    	UsingWordVectors.ipynb: FOUND
+    Submitted:
+    	.ipynb_checkpoints/GapMinderEDA-checkpoint.ipynb: EXTRA
+    	.ipynb_checkpoints/Midterm-checkpoint.ipynb: EXTRA
+    	.ipynb_checkpoints/UsingWordVectors-checkpoint.ipynb: EXTRA
+    	GapMinderEDA.ipynb: OK
+    	Midterm.ipynb: OK
+    	UsingWordVectors.ipynb: OK
+[SubmitApp | INFO] Submitted as: data301 midterm 2018-02-08 17:34:44.736382 UTC

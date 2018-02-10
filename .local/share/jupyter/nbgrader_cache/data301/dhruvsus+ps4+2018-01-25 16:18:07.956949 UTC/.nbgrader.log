@@ -1,0 +1,35 @@
+[ValidateApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps4/MoviesVisualization.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps4/TitanicVisualization.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[SubmitApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[SubmitApp | INFO] Source: /home/dhruvsus/ps4
+[SubmitApp | INFO] Destination: /srv/nbgrader/exchange/data301/inbound/dhruvsus+ps4+2018-01-25 14:54:25.338692 UTC
+[SubmitApp | WARNING] Possible missing notebooks and/or extra notebooks submitted for assignment ps4:
+    Expected:
+    	MoviesVisualization.ipynb: FOUND
+    	TitanicVisualization.ipynb: FOUND
+    Submitted:
+    	.ipynb_checkpoints/MoviesVisualization-checkpoint.ipynb: EXTRA
+    	.ipynb_checkpoints/TitanicVisualization-checkpoint.ipynb: EXTRA
+    	MoviesVisualization.ipynb: OK
+    	TitanicVisualization.ipynb: OK
+[SubmitApp | INFO] Submitted as: data301 ps4 2018-01-25 14:54:25.338692 UTC
+[ValidateApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps4/MoviesVisualization.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps4/TitanicVisualization.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[SubmitApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[SubmitApp | INFO] Source: /home/dhruvsus/ps4
+[SubmitApp | INFO] Destination: /srv/nbgrader/exchange/data301/inbound/dhruvsus+ps4+2018-01-25 16:18:07.956949 UTC
+[SubmitApp | WARNING] Possible missing notebooks and/or extra notebooks submitted for assignment ps4:
+    Expected:
+    	MoviesVisualization.ipynb: FOUND
+    	TitanicVisualization.ipynb: FOUND
+    Submitted:
+    	.ipynb_checkpoints/MoviesVisualization-checkpoint.ipynb: EXTRA
+    	.ipynb_checkpoints/TitanicVisualization-checkpoint.ipynb: EXTRA
+    	MoviesVisualization.ipynb: OK
+    	TitanicVisualization.ipynb: OK

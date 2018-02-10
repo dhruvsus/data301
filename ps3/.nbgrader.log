@@ -1,0 +1,70 @@
+[ValidateApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[ValidateApp | ERROR] Must provide path to notebook:
+    nbgrader validate NOTEBOOK
+[ValidateApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps3/cipher.txt'
+[ValidateApp | ERROR] Traceback (most recent call last):
+      File "/opt/conda/lib/python3.6/site-packages/nbformat/reader.py", line 14, in parse_json
+        nb_dict = json.loads(s, **kwargs)
+      File "/opt/conda/lib/python3.6/json/__init__.py", line 354, in loads
+        return _default_decoder.decode(s)
+      File "/opt/conda/lib/python3.6/json/decoder.py", line 342, in decode
+        raise JSONDecodeError("Extra data", s, end)
+    json.decoder.JSONDecodeError: Extra data: line 1 column 3 (char 2)
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/apps/validateapp.py", line 68, in start
+        validator.validate_and_print(filename)
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/validator.py", line 257, in validate_and_print
+        results = self.validate(filename)
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/validator.py", line 228, in validate
+        nb = self._preprocess(basename)
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/validator.py", line 216, in _preprocess
+        nb = read_nb(filename, as_version=current_nbformat)
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/nbgraderformat/v1.py", line 124, in read_v1
+        nb = _read(source, as_version, **kwargs)
+      File "/opt/conda/lib/python3.6/site-packages/nbformat/__init__.py", line 139, in read
+        return read(f, as_version, **kwargs)
+      File "/opt/conda/lib/python3.6/site-packages/nbformat/__init__.py", line 141, in read
+        return reads(fp.read(), as_version, **kwargs)
+      File "/opt/conda/lib/python3.6/site-packages/nbformat/__init__.py", line 74, in reads
+        nb = reader.reads(s, **kwargs)
+      File "/opt/conda/lib/python3.6/site-packages/nbformat/reader.py", line 58, in reads
+        nb_dict = parse_json(s, **kwargs)
+      File "/opt/conda/lib/python3.6/site-packages/nbformat/reader.py", line 17, in parse_json
+        raise NotJSONError(("Notebook does not appear to be JSON: %r" % s)[:77] + "...")
+    nbformat.reader.NotJSONError: Notebook does not appear to be JSON: '79,59,12,2,79,35,8,28,20,2,3,68,8,9,68,...
+    
+[ValidateApp | ERROR] nbgrader encountered a fatal error while trying to validate 'cipher.txt'
+[ValidateApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps3/ProjectEuler17.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps3/ProjectEuler52.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps3/ProjectEuler59.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps3/ProjectEuler17.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps3/ProjectEuler52.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps3/ProjectEuler59.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[SubmitApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[SubmitApp | INFO] Source: /home/dhruvsus/ps3
+[SubmitApp | INFO] Destination: /srv/nbgrader/exchange/data301/inbound/dhruvsus+ps3+2018-01-23 16:20:32.442869 UTC
+[SubmitApp | WARNING] Possible missing notebooks and/or extra notebooks submitted for assignment ps3:
+    Expected:
+    	ProjectEuler17.ipynb: FOUND
+    	ProjectEuler52.ipynb: FOUND
+    	ProjectEuler59.ipynb: FOUND
+    Submitted:
+    	.ipynb_checkpoints/ProjectEuler17-checkpoint.ipynb: EXTRA
+    	.ipynb_checkpoints/ProjectEuler52-checkpoint.ipynb: EXTRA
+    	.ipynb_checkpoints/ProjectEuler59-checkpoint.ipynb: EXTRA
+    	ProjectEuler17.ipynb: OK
+    	ProjectEuler52.ipynb: OK
+    	ProjectEuler59.ipynb: OK
+[SubmitApp | INFO] Submitted as: data301 ps3 2018-01-23 16:20:32.442869 UTC

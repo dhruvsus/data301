@@ -1,0 +1,7 @@
+[ValidateApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps2/ProjectEuler4.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps2/ProjectEuler6.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps2/ProjectEuler8.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3

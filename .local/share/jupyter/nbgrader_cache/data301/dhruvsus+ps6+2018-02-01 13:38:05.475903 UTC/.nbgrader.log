@@ -1,0 +1,42 @@
+[ValidateApp | CRITICAL] Bad config encountered during initialization:
+[ValidateApp | CRITICAL] Unrecognized flag: '--course'
+[ValidateApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps6/CompleteGraphLaplacian.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps6/PeakFinding.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps6/PokemonEDA.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | ERROR] Timeout waiting for execute reply (30s).
+[ValidateApp | ERROR] Interrupting kernel
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps6/WienerProcess.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps6/CompleteGraphLaplacian.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps6/PeakFinding.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps6/PokemonEDA.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | ERROR] Timeout waiting for execute reply (30s).
+[ValidateApp | ERROR] Interrupting kernel
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps6/WienerProcess.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[SubmitApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[SubmitApp | INFO] Source: /home/dhruvsus/ps6
+[SubmitApp | INFO] Destination: /srv/nbgrader/exchange/data301/inbound/dhruvsus+ps6+2018-02-01 13:38:05.475903 UTC
+[SubmitApp | WARNING] Possible missing notebooks and/or extra notebooks submitted for assignment ps6:
+    Expected:
+    	CompleteGraphLaplacian.ipynb: FOUND
+    	PeakFinding.ipynb: FOUND
+    	PokemonEDA.ipynb: FOUND
+    	WienerProcess.ipynb: FOUND
+    Submitted:
+    	.ipynb_checkpoints/CompleteGraphLaplacian-checkpoint.ipynb: EXTRA
+    	.ipynb_checkpoints/PeakFinding-checkpoint.ipynb: EXTRA
+    	.ipynb_checkpoints/PokemonEDA-checkpoint.ipynb: EXTRA
+    	.ipynb_checkpoints/WienerProcess-checkpoint.ipynb: EXTRA
+    	CompleteGraphLaplacian.ipynb: OK
+    	PeakFinding.ipynb: OK
+    	PokemonEDA.ipynb: OK
+    	WienerProcess.ipynb: OK
