@@ -491,3 +491,115 @@ clear
 ls
 nbgrader list
 clear
+ls
+nbgrader list
+ls
+cd data301/
+ls
+make update
+cd ..
+ls
+clear
+ls
+cd ..
+l
+ls 
+man df
+man du
+du -sh dhruvsus/
+du -sch dhruvsus/
+ls
+cd dhruvsus/
+ls
+clear
+df -h
+df -h *
+ls
+clear
+ls
+echo "#WinterData301" >> README.md
+git init
+git add README.md 
+git commit -m "first commit"
+git remote add origin https://github.com/dhruvsus/WinterData301.git
+git push -u origin master
+ls
+git add .
+git commit
+git push
+git push origin master
+git add *
+git commit
+git add *
+git commit
+git add data301/*
+git add data301/
+git commit
+cd data301/
+ls
+df -h *
+ls
+du -s
+du -sh
+du -shf
+du --help
+du -sha
+du -ha
+ls
+ls Resources/
+ls Resources/Images/
+ls Resources/Notes/
+cat Resources/Notes/install.md 
+cat Resources/Notes/teaching.md 
+clear
+cd ..
+ls
+cd data301/
+ls
+cd Content/
+ls
+ls -al
+git add *
+git commit
+cd PythonDataScienceHandbook/
+ls
+git add notebooks/
+cat requirements.txt 
+ls tools/
+ls website/
+git commit
+cd ..
+ls
+git add WhirlwindTourOfPython/*.ipynb
+git add *
+git commit
+cd
+git push origin master
+ls
+clear
+ls
+git remove data301/
+git rm --cached data301/
+git rm --cached data301/*
+git rm --cached data301/.
+ls
+git commit
+git push origin master
+ls
+clear
+alias
+man alias
+zsh
+clear
+ls
+clear
+ls
+alias nlist="nbgrader list"
+nlist
+clear
+alias ngrade="nbgrader validate"
+alias nsumbit="nbgrader sumbit --course data301"
+alias nfetch="nbgrader fetch --course data301"
+alias
+clear
+alias
