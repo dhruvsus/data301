@@ -115,3 +115,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+alias nlist='nbgrader list'
+alias nfetch='nbgrader fetch --course data301'
+alias nsumbit='nbgrader sumbit --course data301'
+alias ngrade='nbgrader validate'

@@ -2,7 +2,7 @@
 # You may edit it if you're careful!
 
 # Value of 'encoding' when this file was written
-*encoding=latin1
+*encoding=utf-8
 
 
 # hlsearch on (H) or off (h):
@@ -22,11 +22,21 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/nbgrader_config.py
-'1  2  29  ~/nbgrader_config.py
-'2  1  0  ~/Data301 01-09-2017.txt
+'0  121  31  ~/.bashrc
+'1  1  0  ~/nbgrader_config.py
+'2  2  29  ~/nbgrader_config.py
+'3  1  0  ~/Data301 01-09-2017.txt
 
 # Jumplist (newest first):
+-'  121  31  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  1  0  ~/nbgrader_config.py
+-'  2  29  ~/nbgrader_config.py
+-'  1  0  ~/Data301 01-09-2017.txt
+-'  1  0  ~/Data301 01-09-2017.txt
+-'  3  29  ~/nbgrader_config.py
+-'  1  0  ~/Data301 01-09-2017.txt
+-'  1  0  ~/Data301 01-09-2017.txt
 -'  1  0  ~/nbgrader_config.py
 -'  2  29  ~/nbgrader_config.py
 -'  1  0  ~/Data301 01-09-2017.txt
@@ -36,6 +46,15 @@
 -'  1  0  ~/Data301 01-09-2017.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/.bashrc
+	"	121	31
+	^	121	32
+	.	121	31
+	+	118	26
+	+	119	45
+	+	120	14
+	+	121	31
 
 > ~/nbgrader_config.py
 	"	1	0
