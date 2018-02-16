@@ -603,3 +603,78 @@ alias nfetch="nbgrader fetch --course data301"
 alias
 clear
 alias
+cd data301/
+make update
+cd ..
+ls
+nlist
+nbgrader list
+nbgrader fetch ps8
+nbgrader fetch --course data301 ps8
+git add ps8/
+ls
+git add .
+git commit
+git push origin master
+ls
+cd data301/
+ls
+make upate
+make update
+cd ..
+echo "alias nlist="nbgrader list"">> .mybashrc
+ls
+ls -al
+echo "alias nlist="nbgrader list"">> .bashrc
+cat .bashrc 
+clar
+echo "alias nfetch="nbgrader fetch --course data301"">>.bashrc
+alias ngrade="nbgrader validate"
+alias nsumbit="nbgrader sumbit --course data301"
+echo "alias nsumbit="nbgrader sumbit --course data301"">>.bashrc
+echo "alias ngrade="nbgrader validate"">>.bashrc
+cat .bashrc
+source .bashrc
+vim .bashrc
+source .bashrc
+nlist
+clear
+ls
+git add .
+git commit
+git push
+git pull
+git push
+clear
+pwd
+/bin/pwd
+clear
+cat /bin/pwd 
+clear
+ls
+cd ps8
+alias
+nbgrader validate *
+nsubmit .
+vim ./../.bashrc]
+vim ./../.bashrc
+source ./../.bashrc 
+nsubmit .
+echo nsubmit
+nsubmit
+nbgrader submit --course data301 .
+clear
+ls
+nblist
+cd
+ls
+alias
+nlist
+nfetch day11
+nfetch ps9
+clear
+ls
+nfetch
+nlist
+nfetch day12
+nfetch ps10

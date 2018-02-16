@@ -1,0 +1,19 @@
+[ValidateApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps8/PandasObjects.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[ValidateApp | INFO] Validating '/home/dhruvsus/ps8/SimpsonsMergeConcat.ipynb'
+[ValidateApp | INFO] Executing notebook with kernel: python3
+[NbGraderApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NbGraderApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[SubmitApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[SubmitApp | INFO] Source: /home/dhruvsus/ps8
+[SubmitApp | INFO] Destination: /srv/nbgrader/exchange/data301/inbound/dhruvsus+ps8+2018-02-13 09:10:05.415953 UTC
+[SubmitApp | WARNING] Possible missing notebooks and/or extra notebooks submitted for assignment ps8:
+    Expected:
+    	PandasObjects.ipynb: FOUND
+    	SimpsonsMergeConcat.ipynb: FOUND
+    Submitted:
+    	.ipynb_checkpoints/PandasObjects-checkpoint.ipynb: EXTRA
+    	.ipynb_checkpoints/SimpsonsMergeConcat-checkpoint.ipynb: EXTRA
+    	PandasObjects.ipynb: OK
+    	SimpsonsMergeConcat.ipynb: OK

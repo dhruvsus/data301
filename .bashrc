@@ -117,5 +117,5 @@ if ! shopt -oq posix; then
 fi
 alias nlist='nbgrader list'
 alias nfetch='nbgrader fetch --course data301'
-alias nsumbit='nbgrader sumbit --course data301'
+alias nsubmit='nbgrader sumbit --course data301'
 alias ngrade='nbgrader validate'
